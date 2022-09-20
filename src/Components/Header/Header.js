@@ -8,7 +8,7 @@ export class Header extends React.Component {
                 <nav>
                     <div className="logo_container">
                         <a href="./index.html">
-                            <img src="./Fun Fresno.png" alt="logo of explore fresno"></img>
+                            <img src={require("./Fun Fresno.png")} alt="logo of explore fresno" id="logo_img"></img>
                         </a>
                     </div>
                     <div className="child_right">
