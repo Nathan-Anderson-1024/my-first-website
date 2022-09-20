@@ -3,6 +3,7 @@ import React from 'react';
 import {Header} from '../Header/Header.js'
 import {Main} from '../Main/Main.js'
 import {About} from '../About/About.js'
+import { ImageSection } from '../ImageSection/ImageSection.js';
 class App extends React.Component {
   render() {
     return (
@@ -10,6 +11,7 @@ class App extends React.Component {
         <Header />
         <Main />
         <About />
+        <ImageSection />
       </div>
       
       

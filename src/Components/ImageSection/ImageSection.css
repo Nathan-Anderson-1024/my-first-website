@@ -1,0 +1,19 @@
+.whole_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.img_container {
+    position: relative;
+    max-width: 500px;
+
+}
+.img_container h2 {
+    text-align: center;
+}
+.outdoor_img {
+    display: block;
+    width: 100%;
+}
